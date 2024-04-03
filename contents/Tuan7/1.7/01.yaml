@@ -1,0 +1,68 @@
+# input: ' '
+# input: '010'
+# input: '0011'
+# input: "001000"
+input: "00100000"
+#
+#
+#
+blank: " "
+start state: start
+synonyms:
+  accept: { R: accept }
+  reject: { R: reject }
+table:
+  start:
+    0: { R: q1 }
+    1: reject
+    " ": { write: "1", R: reject }
+
+  q1:
+    0: { R: q1 }
+    1: { R: q2 }
+    " ": { R: reject }
+
+  q2:
+    0: { R: q2 }
+    1: reject
+    " ": { write: "#", L: q3 }
+  q3:
+    0: L
+    1: L
+    " ": { R: q4 }
+
+  q4:
+    0: { write: " ", R: q5 }
+    1: { write: " ", R: q11 }
+
+  q5:
+    0: { R: q5 }
+    1: { R: q6 }
+
+  q6:
+    0: { write: " ", R: q7 }
+    "#": { L: q3 }
+
+  q7:
+    0: R
+    "#": { R: q8 }
+
+  q8:
+    0: R
+    " ": { write: 0, L: q9 }
+
+  q9:
+    0: L
+    "#": { L: q10 }
+
+  q10:
+    0: L
+    " ": { write: 0, R: q6 }
+
+  q11:
+    0: { write: " ", R: q11 }
+    1: { write: " ", R: q11 }
+    "#": { write: " ", R: accept }
+
+  accept:
+  reject:
