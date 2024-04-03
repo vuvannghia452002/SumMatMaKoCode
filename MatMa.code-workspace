@@ -1,12 +1,19 @@
 {
   "folders": [
     {
+      "name": "MatMa",
       "path": "."
     },
     {
+      "name": "contents",
       "path": "contents"
     },
     {
+      "name": "latex",
+      "path": "contents/latex"
+    },
+    {
+      "name": "Tuan7",
       "path": "contents/Tuan7"
     }
   ],
