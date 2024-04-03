@@ -1,7 +1,75 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass{article}
-\begin{document}
-First document. This is a simple example, with no extra parameters or packages included.
-\end{document}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \documentclass{article}
+\documentclass[twoside]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{start/init}
+% \usepackage{microtype}
+\usepackage{blindtext}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[mathscr]{eucal}
+\usepackage{amsmath, amsthm, amssymb, amsxtra, latexsym, amscd, graphics, graphpap, makeidx, tikz, color}
+\usepackage{diagbox}
+\usepackage{indentfirst}
+\usepackage{rotating}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{arydshln}
+\usepackage{graphicx}
+\usepackage{amsbsy}
+\usepackage{array}
+\usepackage{epsfig}
+\usepackage{natbib}
+\usepackage{arydshln}
 
+%\theorembodyfont{\slshape}
+\theoremstyle{plain}
+\newtheorem{definition}{Định nghĩa}[section]
+\newtheorem{proposition}{Mệnh đề}[section]
+\newtheorem{theorem}{Định lý}[section]
+\newtheorem{lemma}{Bổ đề}[section]
+\newtheorem{corollary}{Hệ quả}[section]
+\newtheorem{conjecture}{Dự đoán}[section]
+\newtheorem{remark}{Chú ý}[section]
+
+\renewcommand{\thedefinition}{\arabic{section}.\arabic{definition}}
+\renewcommand{\thelemma}{\arabic{section}.\arabic{lemma}}
+\renewcommand{\thetheorem}{\arabic{section}.\arabic{theorem}}
+\renewcommand{\thecorollary}{\arabic{section}.\arabic{corollary}}
+%
+\renewcommand{\theequation}{\thesection.\arabic{equation}} % Định dạng lại số công thức
+\numberwithin{equation}{section} % Đánh số công thức theo section
+
+\usepackage{multirow}
+\usepackage{lscape}
+\usepackage{graphicx}
+\definecolor{MyGreen}{rgb}{.439, .678, .278}
+% \newcommand{\MyHighlight}[1]{\colorbox{MyGreen}{\textcolor{white}{#1}}}
+\newcommand{\MyHighlight}[1]{\underline{\textbf{\textcolor{green}{#1}}}}
+\newcommand{\MySection}[1]{
+\section*{#1}
+\addcontentsline{toc}{section}{#1}
+}
+\usepackage{float} % Sử dụng gói lệnh float để có thể sử dụng [H]
+\usepackage{pdfpages}
+\usepackage{amsmath}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+\newpage
+
+
+\MySection{1. Giới thiệu về chuỗi thời gian}
+\MySection{1.1. Chuỗi thời gian}
+\input{contents/chuoi_thoi_gian}
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
