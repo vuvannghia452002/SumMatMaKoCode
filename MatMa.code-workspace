@@ -1,14 +1,16 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "contents"
-		},
-		{
-			"path": "contents/Tuan7"
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "contents"
+    },
+    {
+      "path": "contents/Tuan7"
+    }
+  ],
+  "settings": {
+    "latex-workshop.latex.autoBuild.run": "onFileChange"
+  }
 }
