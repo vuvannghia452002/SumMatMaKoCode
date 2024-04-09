@@ -1,0 +1,50 @@
+# input: ' '
+# input: '1'
+# input: '01'
+# input: '0001110'
+# input: '00010'
+input: "000111"
+#
+#
+#
+blank: " "
+start state: start
+synonyms:
+  accept: { R: accept }
+  reject: { R: reject }
+table:
+  start:
+    0: { R: first }
+    1: reject
+    " ": { write: "1", R: reject }
+
+  first:
+    0: { R: first }
+    1: { R: check_1_0 }
+    " ": { L: reject }
+
+  check_1_0:
+    0: reject
+    1: { R: check_1_0 }
+    " ": { L: zigzac }
+
+  zigzac:
+    0: reject
+    1: { write: " ", L: have1 }
+    " ": accept
+
+  have1:
+    [0, 1]: L
+    " ": { R: match1 }
+
+  match1:
+    0: { write: " ", R: back }
+    1: reject
+    " ": accept
+
+  back:
+    [0, 1]: R
+    " ": { L: zigzac }
+
+  accept:
+  reject:
