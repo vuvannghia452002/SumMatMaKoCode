@@ -5,6 +5,10 @@
       "path": "."
     },
     {
+      "name": "tools",
+      "path": "contents/tools"
+    },
+    {
       "name": "contents",
       "path": "contents"
     }
