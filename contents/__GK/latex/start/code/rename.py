@@ -13,3 +13,4 @@ shutil.copy(ten_file_nguon, ten_file_dich)
 # return văn bản
 output = "\\input{contents/" + output + "}"
 pyperclip.copy(output)
+
