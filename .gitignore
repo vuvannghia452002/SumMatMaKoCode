@@ -1,8 +1,18 @@
-*.synctex.gz
+contents/__GK/latex/main.synctex.gz
+contents/__GK/latex/main.pdf
+
 __pycache__
+
 contents/temp
-contents/__CK/nhom/latexMM/main.pdf
+
+
 contents/__GK/turing-machine-viz
 contents\__GK\latex\main.pdf
 contents/__GK/Udemy
 contents/__GK/DeThi
+
+
+
+
+contents/__CK/NhomLan1/latexMM/main.synctex.gz
+# contents/__CK/NhomLan1/latexMM/main.pdf
