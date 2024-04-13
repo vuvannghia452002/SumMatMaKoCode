@@ -11,6 +11,9 @@
     {
       "name": "contents",
       "path": "contents"
+    },
+    {
+      "path": "contents/__GK/turing-machine-viz"
     }
   ],
   "settings": {
