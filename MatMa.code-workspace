@@ -19,6 +19,14 @@
     {
       "name": "turing-machine-viz",
       "path": "contents/__GK/turing-machine-viz"
+    },
+    {
+      "name": "khac",
+      "path": "contents/__GK/khac"
+    },
+    {
+      "name": "latex",
+      "path": "contents/__GK/latex"
     }
   ],
   "settings": {
