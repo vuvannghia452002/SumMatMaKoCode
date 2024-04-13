@@ -27,6 +27,12 @@
     {
       "name": "latex",
       "path": "contents/__GK/latex"
+    },
+    {
+      "path": "contents/__GK/Slide"
+    },
+    {
+      "path": "contents/__GK/DeThi"
     }
   ],
   "settings": {
