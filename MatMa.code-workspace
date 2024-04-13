@@ -13,6 +13,11 @@
       "path": "contents"
     },
     {
+      "name": "__GK",
+      "path": "contents/__GK"
+    },
+    {
+      "name": "turing-machine-viz",
       "path": "contents/__GK/turing-machine-viz"
     }
   ],
