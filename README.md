@@ -1,1 +1,1 @@
-[GK](contents/__GK/README.md)
+[GK](contents/__GK/README/README.md)
