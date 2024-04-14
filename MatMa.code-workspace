@@ -17,8 +17,24 @@
       "path": "contents/__GK"
     },
     {
+      "name": "DeThi",
+      "path": "contents/__GK/DeThi"
+    },
+    {
       "name": "turing-machine-viz",
       "path": "contents/__GK/turing-machine-viz"
+    },
+    {
+      "name": "Udemy",
+      "path": "contents/__GK/Udemy"
+    },
+    {
+      "name": "README",
+      "path": "contents/__GK/README"
+    },
+    {
+      "name": "Slide",
+      "path": "contents/__GK/Slide"
     },
     {
       "name": "khac",
@@ -27,18 +43,6 @@
     {
       "name": "latex",
       "path": "contents/__GK/latex"
-    },
-    {
-      "path": "contents/__GK/Slide"
-    },
-    {
-      "path": "contents/__GK/DeThi"
-    },
-    {
-      "path": "contents/__GK/Udemy"
-    },
-    {
-      "path": "contents/__GK/README"
     }
   ],
   "settings": {
