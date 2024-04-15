@@ -2,6 +2,20 @@
 <!-- BuiKhuongDuy Xem sau khi ok -->
 <!-- Udemy Xem sau khi ok -->
 
+<!-- 
+\MySection{Bài toán ngôn ngữ $0^i 1^i$}
+
+\begin{block}{Chuỗi thời gian tuyến tính}
+\begin{itemize}
+\item Công thức: $X_t = \sum_{j = - \infty}^{\infty} \psi_j W_{t - j} $
+\item Trong đó:
+\begin{itemize}[label = $\diamond$]
+\item ${W_t} \sim WN(0, \sigma^2)$
+\item $ \{\psi_j\} $ là chuỗi tham số.
+\item $\sum_{j = - \infty}^{\infty} |\psi_j| < \infty $
+\end{itemize}
+\end{itemize}
+\end{block} -->
 Đề bài Kí hiệu mẫu ...
 2 vòng tròn kết thúc
 
