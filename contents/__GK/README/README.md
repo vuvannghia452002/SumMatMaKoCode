@@ -1,6 +1,14 @@
+<!-- BuiKhuongDuy Xem sau, 5-->
 [DeThi](../DeThi/DeThi.md)
-<!-- BuiKhuongDuy Xem sau khi ok -->
-<!-- Udemy Xem sau khi ok -->
+<!-- [khac](../khac/khac.md), 2 -->
+<!-- [README](../README/README.md), 1 --> 
+<!-- [Slide](../Slide/Slide.md), 0 -->
+<!-- [turing-machine-viz](../turing-machine-viz/turing-machine-viz.md), 7 -->
+<!-- Udemy Xem sau, 6-->
+ 
+
+
+
 
 <!-- 
 \MySection{Bài toán ngôn ngữ $0^i 1^i$}
