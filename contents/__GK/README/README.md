@@ -1,4 +1,5 @@
 Đề bài Kí hiệu mẫu ...
+2 vòng tròn kết thúc
 
 # Máy xóa xâu kí tự
 
@@ -25,3 +26,4 @@ Xây dựng máy Turing, dịch xâu trên băng đi 1 ô sang phải
 0^n 1^n
 
 0^n 1^m
+
