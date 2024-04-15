@@ -1,3 +1,7 @@
+[DeThi](../DeThi/DeThi.md)
+<!-- BuiKhuongDuy Xem sau khi ok -->
+<!-- Udemy Xem sau khi ok -->
+
 Đề bài Kí hiệu mẫu ...
 2 vòng tròn kết thúc
 
