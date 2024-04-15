@@ -27,3 +27,12 @@ Xây dựng máy Turing, dịch xâu trên băng đi 1 ô sang phải
 
 0^n 1^m
 
+
+synonyms []
+3 dạng: bảng, sơ đồ, máy
+video lớp 1,3,2
+file read me, latex
+sách
+Đề thi
+3 loại
+Code tools
